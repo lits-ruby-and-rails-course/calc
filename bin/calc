@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require './calc'
+
+puts "Press Ctrl + C to abort"
+puts
+
+loop do
+  puts "Enter expression: "
+  expression = gets.chomp
+  puts "> #{expression} = #{calculate(expression)}"
+  puts
+end
