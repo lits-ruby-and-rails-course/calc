@@ -31,7 +31,7 @@ describe :calculate do
   end
 
   it " 4 / (1 + 1) = 2" do
-    assert_equal 0, calculate('4 / (1 + 1)')
+    assert_equal 2, calculate('4 / (1 + 1)')
   end
 
   it " 1 + (-2) = -1" do
